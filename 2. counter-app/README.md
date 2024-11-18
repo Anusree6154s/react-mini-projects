@@ -1,0 +1,3 @@
+- Tracks and displays a numeric counter.
+- Features: Increment, decrement, reset buttons.
+- Concepts: State, event handling.
