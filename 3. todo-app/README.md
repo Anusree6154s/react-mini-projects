@@ -1,3 +1,4 @@
+18 Nov 2024
 - Add, delete, and mark tasks as complete.
 - Bonus: Filter tasks (e.g., show only completed).
 - Concepts: State, lists, conditional rendering.
