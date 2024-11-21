@@ -40,14 +40,15 @@ function App() {
       {data && (
         <div style={{ width: "fit-content", margin: "0 auto" }}>
           <p
-            style={{
-              display: "flex",
-              alignItems: "center",
-              // justifyContent: "center",
-              borderRadius: "10px",
-              background: "lightblue",
-              padding:'10px 20px'
-            }}
+            // style={{
+            //   display: "flex",
+            //   alignItems: "center",
+            //   // justifyContent: "center",
+            //   borderRadius: "10px",
+            //   background: "lightblue",
+            //   padding:'10px 20px'
+            // }}
+            className="weather"
           >
             <img
               src={data.current.condition.icon}
@@ -60,19 +61,22 @@ function App() {
           <div>
             <p>
               <strong>Location: </strong>
-              {data.location.name}, {data.location.country}
+              <span className="weather-details">
+                {" "}
+                {data.location.name}, {data.location.country}
+              </span>
             </p>
             <p>
               <strong>Temperature: </strong>
-              {data.current.temp_c} ℃
+              <span className="weather-details"> {data.current.temp_c} ℃</span>
             </p>
             <p>
               <strong>Precipitation: </strong>
-              {data.current.precip_mm} mm
+              <span className="weather-details"> {data.current.precip_mm} mm</span>
             </p>
             <p>
               <strong>Wind: </strong>
-              {data.current.wind_kph} km/h
+              <span className="weather-details">{data.current.wind_kph} km/h</span>
             </p>
           </div>
         </div>

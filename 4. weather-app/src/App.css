@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: red;
+  height: 70vh;
+  padding: 20px;
+  width: fit-content;
+  margin: 10vh auto;
+  border-radius: 5px;
+  background: linear-gradient(rgb(10, 80, 123), rgb(0, 157, 255));
 }
 
 .App-logo {
@@ -35,4 +43,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: none;
+  background-color: lightskyblue;
+  color: rgb(0, 105, 171);
+}
+
+input::placeholder {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  color: rgb(86, 133, 162);
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+  color: rgb(19, 132, 202);
+  width: 200px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+input:focus {
+  border: none;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: rgb(246, 252, 254);
+  padding: 10px 20px;
+}
+
+.weather-details {
+  color: whitesmoke;
 }
