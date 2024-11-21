@@ -2,3 +2,5 @@
 - Tracks and displays a numeric counter.
 - Features: Increment, decrement, reset buttons.
 - Concepts: State, event handling.
+
+<img src='https://github.com/user-attachments/assets/c31d0d9e-8024-45a5-9ef3-e1f700a96de1' width='500'/>

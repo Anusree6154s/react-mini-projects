@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  width: fit-content;
+  margin: 20vh auto;
+  padding: 40px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: rgb(225, 220, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +43,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* h1{
+  fon
+} */
+p {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.count {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px;
+  background-color: rgb(150, 150, 196);
+  border: 1px solid rgb(201, 201, 228);
+  border-radius: 2px;
+  padding: 5px 10px;
+  width: 30px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.count:hover{
+background-color: rgb(183, 183, 222);
+}
+
+.reset {
+  background-color: rgb(68, 68, 138);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  font-weight: 100;
+}
+
+.reset:hover{
+  background-color: rgba(68, 68, 138, 0.868)
 }
