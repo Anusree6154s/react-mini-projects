@@ -72,10 +72,11 @@ function App() {
         {Array.from({ length: 3 }, (_, rowIndex) => (
           <div
             key={rowIndex}
-            style={{
-              display: "flex",
-              justifyContent: "center",
-            }}
+            // style={{
+            //   display: "flex",
+            //   justifyContent: "center",
+            // }}
+            className='blocks'
           >
             {blocks
               .slice(rowIndex * 3, rowIndex * 3 + 3)
