@@ -78,7 +78,7 @@ function App() {
 
     if (errorFlag) setErrors(errorObj);
     else setErrors(initialError);
-    
+
     return !errorFlag;
   };
 
@@ -95,7 +95,6 @@ function App() {
         style={{
           display: "flex",
           flexDirection: "column",
-          width: "150px",
           margin: "0 auto",
           gap: 5,
         }}
@@ -106,6 +105,7 @@ function App() {
           name="name"
           onChange={handleChange}
           value={input.name}
+          autocomplete="off"
         />
         {errors && errors.name && <p className="errors">{errors.name}</p>}
         <input
@@ -114,6 +114,7 @@ function App() {
           name="email"
           onChange={handleChange}
           value={input.email}
+          autocomplete="off"
         />
         {errors && errors.email && <p className="errors">{errors.email}</p>}
         <input
@@ -122,6 +123,7 @@ function App() {
           name="password"
           onChange={handleChange}
           value={input.password}
+          autocomplete="off"
         />
         {errors && errors.password && (
           <p className="errors">{errors.password}</p>
@@ -131,7 +133,8 @@ function App() {
           placeholder="Confirm Password"
           name="confirm-password"
           onChange={handleChange}
-          value={input['confirm-password']}
+          value={input["confirm-password"]}
+          autocomplete="off"
         />
         {errors && errors["confirm-password"] && (
           <p className="errors">{errors["confirm-password"]}</p>

@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  width: 50vh;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10vh auto;
+  height: 70vh;
 }
 
 .App-logo {
@@ -42,4 +48,25 @@ p.errors {
   font-size: 10px;
   text-align: left;
   margin: 0px 0px 10px 0px;
+}
+
+input{
+padding: 10px 20px;
+/* width: 100%; */
+border-radius: 2px;
+border: 1px solid lightgray;
+}
+
+form{
+  width: 200px;
+}
+button{
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(90, 149, 90);
+  border-radius: 2px;
+  color: white;
 }
