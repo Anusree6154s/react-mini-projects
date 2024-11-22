@@ -5,4 +5,6 @@
 - Shows game over
 - Reset game option
 
+Time taken to Complete ≃ 1 day
+
 <img src='https://github.com/user-attachments/assets/786728f0-66e2-4688-be79-1358ee74213d' width='500' />
